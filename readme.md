@@ -2,16 +2,16 @@
 // Installing Git
 ----------------------------------------------------------------
 
- Linux(Debian)
+ Linux(Debian) :    
  $sudo apt-get install git
 
- Linux(Fedora)
+ Linux(Fedora) :    
  $sudo yum install git
 
- Mac
+ Mac :   
  http://git-scm.com/download/mac
 
- Windows
+ Windows :   
  http://git-scm.com/download/win
 
 or use:
@@ -19,7 +19,7 @@ home brewer
 npm
 gitbash
 
-// Check if git is installed
+// Check if git is installed :   
 git --version
 
 -----------------------------------------------------------------
@@ -27,25 +27,25 @@ git --version
 
 GIT Basic Commands:
 -----------------------------------------------------------------
-// Initialize Local Git Repository
+// Initialize Local Git Repository :   
 git init
 
-// Add Files To Index
+// Add Files To Index :   
 git add <file>
 
-// Check status of working tree
+// Check status of working tree :   
 git status
 
- // Commit changes in Index
+ // Commit changes in Index :   
  git commit
 
- // Push to remote repository
+ // Push to remote repository :   
  git push
 
- // Pull the latest from remote repository
+ // Pull the latest from remote  :   repository
  git pull
 
- // Clone Repository into a new directory
+ // Clone Repository into a new  :   directory
  git clone
 
  ---------------------------------------------------------------
@@ -53,42 +53,42 @@ git status
 
  GIT Example:
  ---------------------------------------------------------------
- // Config git user 
+ // Config git user :    
  git config --global user.name 'name'
 
- // Config git email
+ // Config git email :   
  git config --global email 'name@x.com'
 
- // Add /gitEx/index.html
+ // Add /gitEx/index.html :   
  git add index.html
 
- // To know the status
+ // To know the status :   
  git status
 
- // To remove index.html - cached stage
+ // To remove index.html - cached stage :   
  git rm --cached index.html
 
- // To know the status
+ // To know the status :   
  git status
 
- // To add all .html files
+ // To add all .html files :   
  git add *.html
 
-git status
+git status :   
 git rm --cached index.html
  
-// To add all files in folder
+// To add all files in folder :   
 git add .
 
 git status
 
-//change content of index.html
+//change content of index.html :   
 git status
 
 git add .
 git status
 
-// commiting changes
+// commiting changes :   
 git commit
 
 git status
@@ -96,19 +96,19 @@ git status
 git status
 
 git add.
-// commiting without editing
+// commiting without editing :   
 git commit -m 'Added code to app.js'
 
-// Creating git ignore file
+// Creating git ignore file :   
 touch .gitignore
 touch log.txt
 
-// Edit log.txt & .gitignore
+// Edit log.txt & .gitignore :   
 
 git add .
 git status
 
-// Adding Directives
+// Adding Directives :   
 mkdir img
 mkdir test
 
@@ -118,10 +118,10 @@ git add .
 git status
 git commit -m 'Added img'
 
-// create a Branch to add login func without disturbing the Master
+// create a Branch to add login func without disturbing the Master :   
 git branch login
 
-// to see the branch
+// to see the branch :   
 git checkout login
 
 touch login.js
@@ -129,13 +129,13 @@ git add .
 git status
 git commit -m 'login'
 
-// to go to Master
+// to go to Master :   
 git checkout master
 
-// to merger master & branch
+// to merger master & branch :   
 git merge login
 
-// to post it to git remote
+// to post it to git remote :   
 log into github
 create repository
 
@@ -146,6 +146,8 @@ git push -u origin master
 
 login
 
+git add .
+git commit -m 'Added Readme.md'
 git push for updated files.
 
 done..
