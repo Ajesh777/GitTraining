@@ -143,3 +143,10 @@ git remote
 git remote add origin addYourGenLink.git
 git remote
 git push -u origin master
+
+login
+
+git push for updated files.
+
+done..
+--------------------------
